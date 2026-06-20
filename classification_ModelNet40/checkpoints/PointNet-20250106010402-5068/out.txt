@@ -1,0 +1,25 @@
+args: Namespace(checkpoint='checkpoints/PointNet-20250106010402-5068', msg=None, dual_net=False, batch_size=8, model='PointNet', epoch=5, num_points=1024, gpu=0, learning_rate=0.025, min_lr=0.005, weight_decay=0.0002, seed=5068, workers=8, last_layer_concat='concat', add_factor=1.0, num_points_low=1024, neighbours_low=32, num_points_high=2048, neighbours_high=32, num_channel=32)
+==> Building model..
+total param: 30.77M
+==> Preparing data..
+Epoch(1/5) Learning Rate 0.025:
+Training loss:3.635 acc_avg:3.501% acc:8.293% time:1108s
+Testing loss:3.394 acc_avg:9.375% acc:15.194% time:172s [best test acc: 15.194%] 
+
+
+Epoch(2/5) Learning Rate 0.023090169943749475:
+Training loss:3.165 acc_avg:11.651% acc:24.929% time:1110s
+Testing loss:2.854 acc_avg:22.445% acc:30.794% time:171s [best test acc: 30.794%] 
+
+
+Epoch(3/5) Learning Rate 0.018090169943749474:
+Training loss:2.825 acc_avg:20.185% acc:38.12% time:1110s
+Testing loss:2.562 acc_avg:34.581% acc:47.853% time:168s [best test acc: 47.853%] 
+
+
+Epoch(4/5) Learning Rate 0.011909830056250525:
+Training loss:2.578 acc_avg:28.638% acc:47.48% time:1110s
+Testing loss:2.407 acc_avg:37.922% acc:53.485% time:170s [best test acc: 53.485%] 
+
+
+Epoch(5/5) Learning Rate 0.006909830056250526:

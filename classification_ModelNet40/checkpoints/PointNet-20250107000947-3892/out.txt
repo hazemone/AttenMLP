@@ -1,0 +1,5 @@
+args: Namespace(checkpoint='checkpoints/PointNet-20250107000947-3892', msg=None, dual_net=False, batch_size=8, model='PointNet', epoch=10, num_points=1024, gpu=0, learning_rate=0.025, min_lr=0.005, weight_decay=0.0002, seed=3892, workers=8, last_layer_concat='concat', add_factor=1.0, num_points_low=1024, neighbours_low=32, num_points_high=2048, neighbours_high=32, num_channel=32)
+==> Building model..
+total param: 30.78M
+==> Preparing data..
+Epoch(1/10) Learning Rate 0.025:

@@ -1,0 +1,60 @@
+args: Namespace(checkpoint='checkpoints/PointNet-20250102232335-497', msg=None, dual_net=False, batch_size=8, model='PointNet', epoch=10, num_points=1024, gpu=0, learning_rate=0.1, min_lr=0.005, weight_decay=0.0002, seed=497, workers=8, last_layer_concat='concat', add_factor=1.0, num_points_low=1024, neighbours_low=32, num_points_high=2048, neighbours_high=32, num_channel=32)
+==> Building model..
+total param: 30.77M
+==> Preparing data..
+Epoch(1/10) Learning Rate 0.1:
+Training loss:3.737 acc_avg:3.062% acc:7.673% time:1096s
+Testing loss:4.033 acc_avg:6.7% acc:10.859% time:189s [best test acc: 10.859%] 
+
+
+Epoch(2/10) Learning Rate 0.0976751845240198:
+Training loss:3.422 acc_avg:5.463% acc:14.299% time:1135s
+Testing loss:3.379 acc_avg:7.925% acc:10.9% time:190s [best test acc: 10.9%] 
+
+
+Epoch(3/10) Learning Rate 0.09092830723281001:
+Training loss:3.405 acc_avg:5.719% acc:14.776% time:1153s
+Testing loss:3.419 acc_avg:9.025% acc:11.71% time:191s [best test acc: 11.71%] 
+
+
+Epoch(4/10) Learning Rate 0.08041979948389248:
+Training loss:3.39 acc_avg:5.538% acc:13.811% time:1159s
+Testing loss:3.433 acc_avg:6.175% acc:10.008% time:225s [best test acc: 11.71%] 
+
+
+Epoch(5/10) Learning Rate 0.06717830723281:
+Training loss:3.364 acc_avg:5.797% acc:14.014% time:1143s
+Testing loss:3.385 acc_avg:7.875% acc:12.763% time:189s [best test acc: 12.763%] 
+
+
+Epoch(6/10) Learning Rate 0.0525:
+Training loss:3.351 acc_avg:5.975% acc:14.705% time:1137s
+Testing loss:3.295 acc_avg:8.0% acc:12.966% time:189s [best test acc: 12.966%] 
+
+
+Epoch(7/10) Learning Rate 0.037821692767189996:
+Training loss:3.331 acc_avg:6.179% acc:15.417% time:1138s
+Testing loss:3.273 acc_avg:9.2% acc:14.911% time:189s [best test acc: 14.911%] 
+
+
+Epoch(8/10) Learning Rate 0.02458020051610753:
+Training loss:3.302 acc_avg:6.516% acc:16.311% time:1129s
+Testing loss:3.262 acc_avg:12.875% acc:18.76% time:183s [best test acc: 18.76%] 
+
+
+Epoch(9/10) Learning Rate 0.014071692767190003:
+Training loss:3.28 acc_avg:6.969% acc:17.063% time:1129s
+Testing loss:3.25 acc_avg:10.025% acc:16.086% time:184s [best test acc: 18.76%] 
+
+
+Epoch(10/10) Learning Rate 0.007324815475980207:
+Training loss:3.258 acc_avg:7.545% acc:18.496% time:1138s
+Testing loss:3.202 acc_avg:9.775% acc:15.681% time:190s [best test acc: 18.76%] 
+
+
+++++++++++++++++Final results++++++++++++++++
+++  Last Train time: 1138 | Last Test time: 190  ++
+++  Best Train loss: 3.258 | Best Test loss: 3.202  ++
+++  Best Train acc_B: 7.545 | Best Test acc_B: 12.875  ++
+++  Best Train acc: 18.496 | Best Test acc: 18.76  ++
+++++++++++++++++++++++++++++++++++++++++
