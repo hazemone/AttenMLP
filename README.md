@@ -22,14 +22,14 @@ Evaluated on the ModelNet40 benchmark, AttenMLP achieves **92.4% mean class accu
 | --- | --- | --- | --- | --- | --- |
 | PointNet | Point | 3.47 | 0.45 | 86.0 | 89.2 |
 | PointCNN | Point | 2.37 | 1.84 | 88.1 | 92.2 |
-| PointNet++ | Point | 1.48 | 1.68 | — | 91.9 |
+| PointNet++ | Point | 1.48 | 1.68 | - | 91.9 |
 | DGCNN | Graph | 1.81 | 2.43 | 90.2 | 92.2 |
 | LGEFE | Graph | 2.59 | 0.97 | 91.3 | 93.9 |
-| CVA-GNN | Graph | — | — | 91.8 | 93.7 |
+| CVA-GNN | Graph | - | - | 91.8 | 93.7 |
 | Point-MAE | Transformer | 15.2 | 5.12 | 92.1 | 93.5 |
 | PCT | Transformer | 9.14 | 3.85 | 91.8 | 93.5 |
 | PointMLP | MLP | 3.95 | 2.15 | 91.6 | 93.9 |
-| DualMLP | MLP | — | — | 91.8 | 93.8 |
+| DualMLP | MLP | - | - | 91.8 | 93.8 |
 | **AttenMLP (Ours)** | **MLP** | **3.15** | **1.85** | **92.4** | **93.85** |
 
 ### Ablation study
