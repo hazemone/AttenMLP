@@ -49,6 +49,8 @@ Adding multi-head attention alone yields a +2.5% OA gain, while positional encod
 # clone this repo
 git clone https://github.com/hazemone/AttenMLP.git
 cd AttenMLP
+cd classification_ModelNet40
+python3 main.py
 ```
 
 Requirements:
