@@ -10,9 +10,9 @@ AttenMLP is a lightweight architecture for 3D point cloud classification that co
 
 The architecture is built on three core components:
 
-1. **Dual-pathway architecture** — point features are processed simultaneously in a *sparse* stream (hierarchical FPS+KNN grouping capturing global geometric structure) and a *dense* stream (fine-grained local detail), fused by a parameter-free operator.
-2. **Sinusoidal positional encoding** — spatial context derived from raw 3D coordinates is injected into the attention input, preserving spatial cohesion of points throughout deep network transformations.
-3. **Efficient multi-head attention** — attention is *localised*: it operates on the FPS-downsampled centroid set (M ≪ N) within KNN neighbourhoods, so the quadratic cost applies to M rather than the full point count N, avoiding the O(N²) complexity of full transformers.
+1. **Dual-pathway architecture**: point features are processed simultaneously in a *sparse* stream (hierarchical FPS+KNN grouping capturing global geometric structure) and a *dense* stream (fine-grained local detail), fused by a parameter-free operator.
+2. **Sinusoidal positional encoding**: spatial context derived from raw 3D coordinates is injected into the attention input, preserving spatial cohesion of points throughout deep network transformations.
+3. **Efficient multi-head attention**: attention is *localised*: it operates on the FPS-downsampled centroid set (M ≪ N) within KNN neighbourhoods, so the quadratic cost applies to M rather than the full point count N, avoiding the O(N²) complexity of full transformers.
 
 Evaluated on the ModelNet40 benchmark, AttenMLP achieves **92.4% mean class accuracy (mAcc)** and **93.85% overall accuracy (OA)** with only **3.15 MB of parameters** and **1.85 GFLOPs** — a notably lightweight footprint relative to transformer-based methods such as Point-MAE (15.2 MB, 5.12 GFLOPs) and PCT (9.14 MB, 3.85 GFLOPs).
 
@@ -150,9 +150,7 @@ This project is released under the [Apache 2.0 License](LICENSE).
 
 ## Acknowledgment
 
-Our implementation is built upon the following excellent codebases. We gratefully thank the authors for their wonderful work, which made our implementation possible:
-
-[PointMLP](https://github.com/ma-xu/pointMLP-pytorch), [DualMLP](https://github.com/snehaputul/DualMLP)
+Our implementation is built upon the following excellent codebases. We thank the authors for their great work, which made our implementation possible: [PointMLP](https://github.com/ma-xu/pointMLP-pytorch), [DualMLP](https://github.com/snehaputul/DualMLP)
 
 ## Contact
 
