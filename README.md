@@ -156,5 +156,5 @@ Our implementation is built upon the following excellent codebases. We thank the
 
 For questions about the paper or the code, please open an issue or contact:
 
-- Hazem Eissa — hazem.eissa@sunderland.ac.uk ([ORCID](https://orcid.org/0000-0002-3645-1247))
-- Rohit Mohanraj — rm22ecb0f08@student.nitw.ac.in ([ORCID](https://orcid.org/0009-0002-1574-8305))
+- Hazem Eissa: hazem.eissa@sunderland.ac.uk ([ORCID](https://orcid.org/0000-0002-3645-1247))
+- Rohit Mohanraj: rm22ecb0f08@student.nitw.ac.in ([ORCID](https://orcid.org/0009-0002-1574-8305))
