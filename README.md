@@ -41,7 +41,7 @@ Evaluated on the ModelNet40 benchmark, AttenMLP achieves **92.4% mean class accu
 | + Positional Encoding | 90.6 | 91.50 | 2.92 |
 | **AttenMLP (Full)** | **92.4** | **93.85** | **3.15** |
 
-Adding multi-head attention alone yields a +2.5% OA gain, while positional encoding alone adds +1.3%. Combining both components produces a synergistic interaction and the best overall accuracy. Eight attention heads were found to be the optimal accuracy–cost trade-off.
+Adding multi-head attention alone yields a +2.5% OA gain, while positional encoding alone adds +1.3%. Combining both components produces a synergistic interaction and the best overall accuracy. Eight attention heads were found to be the optimal accuracy-cost trade-off.
 
 ## Installation
 
@@ -54,7 +54,7 @@ cd AttenMLP
 Requirements:
 
 - Python ≥ 3.9
-- PyTorch (with CUDA — training requires a GPU)
+- PyTorch (with CUDA)
 - Additional packages: `h5py`, `numpy`, `scikit-learn`, `tqdm`, `thop` (optional, for FLOPs/params profiling), `pointnet2_ops` (optional, for CUDA-accelerated farthest point sampling)
 
 ```shell
