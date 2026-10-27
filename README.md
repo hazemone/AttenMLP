@@ -1,6 +1,6 @@
 # AttenMLP: An Attention-Enhanced Multilayer Perceptron for 3D Point Cloud Classification
 
-Official link to the paper: **"AttenMLP: An Attention-Enhanced Multilayer Perceptron for 3D Point Cloud Classification"** by Rohit Mohanraj (National Institute of Technology Warangal) and Hazem Eissa (University of Sunderland).
+Official link to the paper: [**"AttenMLP: An Attention-Enhanced Multilayer Perceptron for 3D Point Cloud Classification"**](https://ieeexplore.ieee.org/abstract/document/11712500) by Rohit Mohanraj (National Institute of Technology Warangal) and Hazem Eissa (University of Sunderland).
 
 <!-- TODO: add the paper link once published, e.g. [Paper](https://...) -->
 
